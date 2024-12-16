@@ -120,6 +120,10 @@
 &kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B   &kp C_MUTE    &trans     &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
                    &kp LGUI  &kp LALT  &kp LCTRL  &trans  &kp SPACE     &kp ENTER  &trans  &trans  &trans     &trans
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
     };
 };
