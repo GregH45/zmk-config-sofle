@@ -115,7 +115,7 @@
         layer_4 {
             bindings = <
 &kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                           &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp DELETE
-&kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                            &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &kp LBKT
+&kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                            &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &kp BSPC
 &kp TAB    &kp A   &kp R     &kp S     &kp T      &kp D                            &kp H   &kp N   &kp E      &kp I    &kp O     &kp APOS
 &kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B   &kp C_MUTE    &trans     &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
                    &kp LGUI  &kp LALT  &kp LCTRL  &trans  &kp SPACE     &kp ENTER  &trans  &trans  &trans     &trans
