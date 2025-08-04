@@ -15,14 +15,7 @@
 / {
     // Activate ADJUST layer by pressing raise and lower
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        adjust_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     behaviors {
         hold_tap: hold_tap {
@@ -39,7 +32,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        Base {
             bindings = <
 &trans  &trans          &trans          &trans       &trans            &trans                                  &trans           &trans   &trans     &trans   &trans    &trans
 &trans  &kp Q           &kp W           &kp F        &kp P             &kp B                                   &kp J            &kp L    &kp U      &kp Y    &kp APOS  &trans
